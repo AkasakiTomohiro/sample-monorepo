@@ -1,0 +1,15 @@
+{
+  "name": "@common/common1",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "volta": {
+    "extends": "../../.voltarc.json"
+  }
+}

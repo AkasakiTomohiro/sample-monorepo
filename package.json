@@ -1,0 +1,18 @@
+{
+  "name": "sample-monorepo",
+  "private": true,
+  "scripts": {
+    "setup": "yarn install",
+    "build": "yarn turbo run build"
+  },
+  "workspaces": [
+    "packages/client/*",
+    "packages/common/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.7"
+  },
+  "volta": {
+    "extends": "./.voltarc.json"
+  }
+}

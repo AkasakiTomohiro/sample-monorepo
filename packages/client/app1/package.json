@@ -1,0 +1,20 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@common/common1": "workspace:^"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "volta": {
+    "extends": "../../.voltarc.json"
+  }
+}
