@@ -2,5 +2,4 @@
 node_modules
 lib
 .turbo
-.yarnrc.yml
 .pnp.cjs
